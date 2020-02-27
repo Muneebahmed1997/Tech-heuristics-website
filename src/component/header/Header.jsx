@@ -60,8 +60,8 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li className="has-droupdown"><Link to="#">Home</Link>
-                                    <ul className="submenu">
+                                <li className="has-droupdown"><Link to="/dark-main-demo">Home</Link>
+                                    {/* <ul className="submenu">
                                         <li><Link to="/main-demo">Main Demo</Link></li>
                                         <li><Link to="/dark-main-demo">Main Demo Dark</Link></li>
                                         <li><Link to="/creative-agency">Creative Agency</Link></li>
@@ -78,13 +78,13 @@ class Header extends Component{
                                         <li><Link to="/home-particles">Home Particles</Link></li>
                                         <li><Link to="/studio-agency">Studio Agency</Link></li>
                                         <li><Link to="/designer-portfolio">Designer Portfolio</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li className="has-droupdown"><Link to="/service" >Service</Link>
-                                    <ul className="submenu">
+                                    {/* <ul className="submenu">
                                         <li><Link to="/service">Service</Link></li>
                                         <li><Link to="/service-details">Service Details</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li><Link to="/about" >About</Link></li>
 
@@ -95,10 +95,10 @@ class Header extends Component{
                                     </ul>
                                 </li> */}
                                 <li className="has-droupdown"><Link to="#" >Portfolio</Link>
-                                    <ul className="submenu">
+                                    {/* <ul className="submenu">
                                         <li><Link to="/portfolio">Portfolio</Link></li>
                                         <li><Link to="/portfolio-details">Portfolio Details</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
