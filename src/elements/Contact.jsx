@@ -8,6 +8,8 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -16,6 +18,8 @@ const mapStyles = {
     height: '100%'
   };
 
+
+  
 class Contact extends Component{
     static defaultProps = {
         center: {
@@ -26,18 +30,31 @@ class Contact extends Component{
     };
    
 
-    render(){
-        return(
-            <React.Fragment>
-                <GoogleMapReact
-        google={this.props.google}
-        zoom={14}
-        style={mapStyles}
-        initialCenter={{
-         lat: -1.2884,
-         lng: 36.8233
-        }}
-      />
+    
+     render(){
+         return(
+             <React.Fragment>
+                 <GoogleMapReact
+         google={this.props.google}
+         zoom={8}
+         style={mapStyles}
+         initialCenter={{
+          lat: -1.2884,
+          lng: 36.8233
+         }}
+         >
+          <Marker position={{ lat: 48.00, lng: -122.00}} />
+        </GoogleMapReact>
+    );
+  }
+
+
+    
+   
+    
+    
+    
+
                 <PageHelmet pageTitle='Contact' />
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
@@ -162,4 +179,8 @@ class Contact extends Component{
         )
     }
 }
-export default Contact
+
+export  default GoogleApiWrapper({
+    apiKey: ('AIzaSyDXENJzr9aphbUEC4HII04BLw8bqgANUd8')
+  })(Contact);
+      
