@@ -60,13 +60,13 @@ class Contact extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
+                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="10">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                    <h2 className="title theme-gradient">Contact Us</h2>
+                                    <p>Behind every great human achievement, there is a team.  </p>
                                 </div>
                             </div>
                         </div>
@@ -89,8 +89,7 @@ class Contact extends Component{
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
                                         <p><a href="tel:+92 (336) 2404-354">+92 (336) 2404-354</a></p>
-                                        <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p>
-                                    </div>
+                                          </div>
                                 </div>
                             </div>
                             {/* End Single Address  */}
@@ -135,7 +134,7 @@ class Contact extends Component{
                 {/* End Contact Page Area  */}
 
                 {/* Start Contact Map  */}
-                <div className="rn-contact-map-area position-relative">
+                {/* <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
                         defaultCenter={this.props.center}
@@ -150,7 +149,7 @@ class Contact extends Component{
                         </GoogleMapReact>
                     
                     </div>
-                </div>
+                </div> */}
                 {/* End Contact Map  */}
 
                 {/* Start Brand Area */}

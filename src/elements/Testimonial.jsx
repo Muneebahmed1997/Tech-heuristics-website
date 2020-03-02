@@ -14,7 +14,7 @@ class Testimonial extends Component{
                                         <p>Quality deliverable and Customer Satisfaction are not simply a result of our technological prowess. It is a culmination of years of mastering skills and working hand-in-hand with clients to maximize the investment in their online business efforts.</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>TECH HEURISTICS .CO</span></h6>
+                                        <h6><span>TECH HEURISTICS.COM</span></h6>
                                     </div>
                                 </div>
                             </TabPanel>

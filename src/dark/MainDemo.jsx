@@ -79,13 +79,13 @@ class MainDemo extends Component{
                         <div className="row align-items-end">
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-left">
-                                    <h2>Works Done :</h2>
+                                    <h2>Our Projects </h2>
                                     <p>Once you conceive an idea, the next step is to find the best technology partner to bring your idea to life.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
-                                    <a className="btn-transparent rn-btn-dark" href="/blog"><span className="text">View All News</span></a>
+                                    <a className="btn-transparent rn-btn-dark" href="/portfolio"><span className="text">View All Projects</span></a>
                                 </div>
                             </div>
                         </div>
@@ -94,15 +94,15 @@ class MainDemo extends Component{
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="/blog-details">
+                                            <a href="/portfolio">
                                                 <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
                                             </a>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
+                                            <h4 className="title"><a href="/portfolio">{value.title}</a></h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
+                                                <a className="rn-btn text-white" href="/portfolio">Read More</a>
                                             </div>
                                         </div>
                                     </div>

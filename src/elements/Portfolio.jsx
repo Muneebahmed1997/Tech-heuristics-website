@@ -13,8 +13,8 @@ import Footer from "../component/footer/Footer";
 const list = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'D',
+        title: 'Getting s to the big show'
     },
     {
         image: 'image-2',
@@ -31,16 +31,16 @@ const list = [
         category: 'Development',
         title: 'Getting tickets to the big show'
     },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    }
+    // {
+    //     image: 'image-3',
+    //     category: 'Development',
+    //     title: 'Getting tickets to the big show'
+    // },
+    //  {
+    //      image: 'image-4',
+    //      category: 'Development',
+    //      title: 'Getting tickets to the big show'
+    //  }
 ]
 
 
@@ -56,7 +56,7 @@ class Portfolio extends Component{
                 {/* End Breadcrump Area */}
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pt--120 pb--140 bg_color--5">
+                {/* <div className="portfolio-area pt--120 pb--140 bg_color--5">
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">
@@ -95,7 +95,7 @@ class Portfolio extends Component{
 
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Portfolio Area */}
 
                 {/* Start Portfolio Area */}
@@ -106,12 +106,12 @@ class Portfolio extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30">
                                         <h2 className="title">All Works</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>WE ARE A SOFTWARE DEVELOPMENT COMPANY PASSIONATE ABOUT SOFTWARE</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
-                                <PortfolioList styevariation="text-left mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
+                                <PortfolioList styevariation="text-left mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="4" />
                             </div>
                             <div className="row">
                                 <div className="col-lg-12">

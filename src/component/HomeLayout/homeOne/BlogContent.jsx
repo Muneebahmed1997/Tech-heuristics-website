@@ -1,7 +1,7 @@
 const BlogContent = [
     {
         images: '01',
-        title: ' Getting tickets to the big show',
+        title: ' Getting tickets to th',
         category: 'Development'
     },
     {

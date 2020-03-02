@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component{
     render(){
       
-        let title1 = 'Our Mission Statement',
+        let title1 = 'Mission Statement',
         description1 = 'To achieve total customer satisfaction by providing best quality oriented dedicated technical resources and infrastructure for better software solutions enhancing systems and leading to business success.';
        
         let title = 'About',

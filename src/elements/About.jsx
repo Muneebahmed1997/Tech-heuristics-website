@@ -12,8 +12,8 @@ import Footer from "../component/footer/Footer";
 
 class About extends Component{
     render(){
-        let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
+        let title = 'About Us',
+        description = 'Hi ! Welcome to Tech Heuristics. We are a young software company that provides the optimal solutions to your bussiness problems without compromising on the quality.';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
@@ -42,14 +42,14 @@ class About extends Component{
                                         <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">What we Give</h3>
+                                                    <p>We provide a wide range of services including web development , mobile application development , Custom CRM development, SEO and Software testing.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">What we Have</h3>
+                                                    <p>We provide a wide range of services including web development , mobile application development , Custom CRM development, SEO and Software testing.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -76,14 +76,15 @@ class About extends Component{
                 </div>
                 {/* End CounterUp Area */}
 
+
                 {/* Start Finding Us Area  */}
-                <div className="rn-finding-us-area rn-finding-us bg_color--1">
+                {/* <div className="rn-finding-us-area rn-finding-us bg_color--1">
                     <div className="inner">
                         <div className="content-wrapper">
                             <div className="content">
-                                <h4 className="theme-gradient">Find Your Work Now</h4>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
-                                <a className="rn-btn btn-white" href="/about">Get Started</a>
+                                <h4 className="theme-gradient">Contact us to Order your Work Now</h4>
+                                <p>Need to get in touch with the Team ? We are all Ears</p>
+                                <a className="rn-btn btn-white" href="/contact">Support</a>
                             </div>
                         </div>
                         <div className="thumbnail">
@@ -92,82 +93,83 @@ class About extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Finding Us Area  */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-area bg_color--1 ptb--120">
+                {/* <div className="rn-team-area bg_color--1 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--25">
                                     <h2 className="title">Skilled Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Everything your team needs to build and deliver great software, fast.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            
+                             */}
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
+                                        <h4 className="title">Muhammad Taimoor</h4>
+                                        <p className="designation">Sr. Software Developer</p>
                                     </div>
                                     <ul className="social-icon" >
                                         <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                        <li><a href="https://www.facebook.com/techheuristics/"><FaLinkedinIn /></a></li>
+                                        <li><a href="https://www.facebook.com/techheuristics/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">BM. Alamin</h4>
+                                        <h4 className="title">Abdul Moiz</h4>
                                         <p className="designation">Sr. Web Developer</p>
                                     </div>
                                     <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                        <li><a href="https://www.facebook.com/techheuristics/"><FaFacebookF /></a></li>
+                                        <li><a href="https://www.facebook.com/techheuristics/"><FaLinkedinIn /></a></li>
+                                        <li><a href="https://www.facebook.com/techheuristics/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
+                                        <h4 className="title">Muneeb Ahmed</h4>
+                                        <p className="designation">Jr. Software Developer</p>
                                     </div>
                                     <ul className="social-icon" >
                                         <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                        <li><a href="https://www.facebook.com/techheuristics/"><FaLinkedinIn /></a></li>
+                                        <li><a href="https://www.facebook.com/techheuristics/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
-                        </div>
+                        {/* </div>
                     </div>
-                </div>
+                </div> */}
+
                 {/* End Team Area  */}
 
                 {/* Start Testimonial Area */}

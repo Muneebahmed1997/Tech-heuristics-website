@@ -5,22 +5,22 @@ const ServiceList = [
     {
         icon: <FiCast />,
         title: 'SEO & Marketing',
-        description: 'We know you want to be on the top and it takes time, efforts, massive expense and an experienced team. We have them ready for you to boost your business and show it to the outside world.'
+        description: ' If you need to manage your social media operations but dont have the time or available resource, Tech Heuristics is here to save the day.We provide a range of social media marketing services which include driving traffic to your social media page or website, content creation and publishing and also research and analysis on your products.'
     },
     {
         icon: <FiLayers />,
         title: 'UI/UX Design',
-        description: 'We are a team of young and innovative programmers who are always thinking out of the box to provide with beautiful and engaging designs.'
+        description: 'We develop intuitive and graphically pleasing user interfaces for websites, Mobile sites, and application software. Whether you need to enhance an existing application’s user interface or you are starting a new initiative. The value of a software product is directly related with its user interface.'
     },
     {
         icon: <FiUsers />,
         title: 'SQA & Testing',
-        description: 'Our professional SQA team evaluates the functional, performance, usability and security of your system before producing it to production. Usability, stability and security is not an option to ever compromise on.'
+        description: 'For standalone testing services, Tech Heuristics provides you with a multi-skilled QA & testing team. Experts are chosen based on their skills and qualifications to suit your project’s demands. Our professional management ensures you the best resources for your needs. Our work is transparent and efficient and thus regular check-ins are welcomed.'        
     },
     {
         icon: <FiMonitor />,
         title: 'DATA Processing',
-        description: 'Data processing, Manipulation of data by a computer. It includes the conversion of raw data to machine-readable form, flow of data through the CPU and memory to output devices, and formatting or transformation of output.'
+        description: 'Our powerful data mining techniques, including automated and semi-automated data scraping and analysis services, accelerate data analysis. We specialize in creating custom models that collect data, apply the most effective analysis techniques, and convert it into actionable insights'
     },
     
 ]

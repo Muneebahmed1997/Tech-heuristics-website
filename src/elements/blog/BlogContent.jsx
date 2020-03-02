@@ -1,19 +1,19 @@
 const BlogContent = [
     {
         images: '01',
-        title: ' Getting tickets to the big show',
-        category: 'Development'
+        title: ' KKB Engineering Works',
+        category: 'Web Development'
     },
     {
         images: '02',
-        title: 'A big ticket gone to be an interesting ',
-        category: 'Management'
+        title: 'Events By Faiza ',
+        category: 'Events Management'
     },
 
     {
         images: '03',
-        title: 'The Home of the Future Could Bebes',
-        category: 'Design'
+        title: 'Ride Pakistan 2020',
+        category: 'Website Development'
     },
     {
         images: '04',

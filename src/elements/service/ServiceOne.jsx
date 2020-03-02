@@ -4,7 +4,7 @@ const ServiceList = [
     {
         icon: '01',
         title: 'Web Development',
-        description: 'We offer to create websites on PHP, WordPress, Magento, React, ASP.Net, Angular, Laravel and .NET MVC. These websites do not only amaze on the engaging designs but also conveys all parts with the most smooth of structures.'
+        description: 'We offer to create websites on PHP, WordPress, Magento, React, ASP.Net, Angular, Laravel and .NET MVC.Tech Heuristics provides you web development services, from designing the optimal product architecture to an eye catching front-end. Using the leading web development technologies.'
     },
     
     {
@@ -15,7 +15,7 @@ const ServiceList = [
     {
         icon: '03',
         title: 'Product Development',
-        description: 'We have what it takes to develop a product. We will design, build and maintain your product to allow you to focus on building your business.'
+        description: 'Software development teams emphasize product functionality, but they must adhere to the highest standards for code quality and program design. Version control may be complex, especially considering multiple versions of the software and We will to allow you to focus on building your business.                                                           '
     },
 
 ]
